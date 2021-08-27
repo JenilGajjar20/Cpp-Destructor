@@ -27,7 +27,7 @@ A destructor is called automatically when the object goes out of scope:
 Destructor have same name as the class preceded by a **tilde(~)**. Destructor don't take any argument and don't return anything.
 
 ## Can be there more than one destructor in class?
-No, there can only be one destructorin a class with a class name preceded by tilde(~), no parameter and also no return type.
+No, there can only be one destructor in a class with a class name preceded by tilde(~), no parameter and also no return type.
 
 ## When do we need to write a user-defined destructor?
 If we do not write our own destructor in a class then the compiler creates a default destructor. The default destructor works well unless we have dynamically allocated memory or pointer in class.
